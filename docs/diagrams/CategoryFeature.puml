@@ -22,7 +22,8 @@ alt no expenses tracked
 else category not found
     CommandCategory --> Duke: "Sorry, none of your previous expenses corresponds to this category."
     CommandCategory -> CommandCategory: displayAllCategories()
-else
+else else
+
     CommandCategory -> CommandCategory: displayAllCategories()
     CommandCategory -> CommandCategory: displayCorrespondingCategory(category)
 end
