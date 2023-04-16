@@ -347,7 +347,7 @@ Format: `category CATEGORY`
 
 * CATEGORY represents the category that user want.
 * If the category doesn't belong to the categories that user has entered before, it will tell the user to switch to
-  another one.
+  another one. If the user don't specify which category to get, it will return all "uncategorized" expenses
 * The method also will tell user how many categories they have, and also what are these categories, to better help
   them with future obtaining purpose
 * Case sensitivity doesn't matter!
