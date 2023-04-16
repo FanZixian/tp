@@ -519,15 +519,16 @@ currencies, we require a limit on how far back the date can be set.
 
 ### Expense management command
 
-|             Action              |                                     Command                                     |
-|:-------------------------------:|:-------------------------------------------------------------------------------:|
-|         Add an expense          |  `add amt/EXPENSE_AMOUNT t/TIME [cat/EXPENSE_CATEGORY] [cur/EXPENSE_CURRENCY]`  |
-|        Delete an expense        |                                 `delete INDEX`                                  |
-|        List all expenses        |                                     `list`                                      |
-|   Calculate total expenditure   |                                     `total`                                     |
-|              Sort               |              sort by category: `sort C`<br/>sort by date: `sort D`              |
-|    View expenses by category    |                               `category CATEGORY`                               |
-|            Overview             |  monthly overview: `overview MONTH YEAR`<br/>yearly overview: `overview YEAR`   |
-|          Find expenses          |                                 `find KEYWORD`                                  |
-|  Exit ET (outside the account)  |                                     `exit`                                      |
+|            Action             |                                    Command                                    |
+|:-----------------------------:|:-----------------------------------------------------------------------------:|
+|      Get to helper page       |                                    `help`                                     |
+|        Add an expense         | `add amt/EXPENSE_AMOUNT t/TIME [cat/EXPENSE_CATEGORY] [cur/EXPENSE_CURRENCY]` |
+|       Delete an expense       |                                `delete INDEX`                                 |
+|       List all expenses       |                                    `list`                                     |
+|  Calculate total expenditure  |                                    `total`                                    |
+|             Sort              |             sort by category: `sort C`<br/>sort by date: `sort D`             |
+|   View expenses by category   |                              `category CATEGORY`                              |
+|           Overview            | monthly overview: `overview MONTH YEAR`<br/>yearly overview: `overview YEAR`  |
+|         Find expenses         |                                `find KEYWORD`                                 |
+| Exit ET (outside the account) |                                    `exit`                                     |
 
