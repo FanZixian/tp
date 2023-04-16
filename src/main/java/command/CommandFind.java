@@ -34,16 +34,17 @@ public class CommandFind extends Command {
         if (expenseList.size() == 0) {
             System.out.println("Sorry, there are no expenses tracked currently.");
             System.out.println(MESSAGE_DIVIDER);
-        }
-        isZero = checkWithInput(toFind);
-
-        if (isZero) {
-            System.out.println("Sorry, none of your previous expenses have such input.");
-            System.out.println(MESSAGE_DIVIDER);
         } else {
-            System.out.println(MESSAGE_DIVIDER_FIND);
-            displayAllRelevantExpenses(toFind);
-            System.out.println(MESSAGE_DIVIDER);
+            isZero = checkWithInput(toFind);
+
+            if (isZero) {
+                System.out.println("Sorry, none of your previous expenses have such input.");
+                System.out.println(MESSAGE_DIVIDER);
+            } else {
+                System.out.println(MESSAGE_DIVIDER_FIND);
+                displayAllRelevantExpenses(toFind);
+                System.out.println(MESSAGE_DIVIDER);
+            }
         }
         return null;
     }
